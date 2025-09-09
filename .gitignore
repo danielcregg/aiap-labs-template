@@ -3,28 +3,11 @@ __pycache__/
 *.py[cod]
 *.so
 
-# Jupyter
-.ipynb_checkpoints
-
-# VS Code
-.vscode/
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-
 # Environments
 .env
 .venv
 venv/
 ENV/
-
-# Data and output
-*.csv
-*.json
-outputs/
-results/
-logs/
 
 # macOS
 .DS_Store
