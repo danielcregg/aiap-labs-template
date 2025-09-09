@@ -1,15 +1,12 @@
 {
-    "settings": {
-        "python.defaultInterpreterPath": "/usr/local/bin/python",
-        "files.exclude": {
-            "**/.devcontainer": true,
-            "**/.vscode": true,
-            "**/.gitignore": true,
-            "**/.github": true,
-        },
-        "editor.minimap.enabled": false,
-        "git.autofetch": true,
-        "workbench.colorTheme": "Default Dark Modern",
-        "terminal.integrated.suggestEnabled": true
-    }
+    "python.defaultInterpreterPath": "/usr/local/bin/python",
+    "files.exclude": {
+        "**/.devcontainer": true,
+        "**/.vscode": true,
+        "**/.gitignore": false,
+        "**/.github": true,
+    },
+    "editor.minimap.enabled": false,
+    "git.autofetch": true,
+    "workbench.colorTheme": "Default Dark Modern",
 }

@@ -16,7 +16,3 @@ ENV/
 Thumbs.db
 *.tmp
 *.temp
-
-# VS Code
-.vscode/
-!.vscode/settings.json
