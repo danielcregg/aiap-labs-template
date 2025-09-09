@@ -1,146 +1,131 @@
-# AI Assisted Programming Labs Template
+# Setup Lab
 
-This repository serves as a GitHub Classroom template for the **AI Assisted Programming** course. It provides a pre-configured development environment with all necessary tools and libraries for learning AI-assisted programming techniques.
+Welcome to the Setup Lab! This guide will help you set up your environment, understand the lab structure, and complete your tasks using GitHub Codespaces and Copilot.
+
+---
 
 ## 🚀 Quick Start
 
-1. **Accept the GitHub Classroom Assignment**: Click the assignment link provided by your instructor
-2. **Open in Codespace**: Click the "Code" button and select "Create codespace on main"
-3. **Wait for Setup**: The codespace will automatically install all dependencies
-4. **Start Learning**: Open the labs directory and begin with Lab 01
+<div align="center">
 
-## 📚 Course Structure
-
-### Labs Overview
-- **Lab 01**: Introduction to AI Tools and GitHub Copilot
-- **Lab 02**: Advanced AI-Assisted Algorithm Development
-- **Lab 03**: Machine Learning with AI Assistance
-
-### Directory Structure
-```
-├── .devcontainer/          # Codespace configuration
-├── labs/                   # Lab assignments and instructions
-│   ├── lab01/             # Introduction to AI tools
-│   ├── lab02/             # Advanced algorithms
-│   └── lab03/             # Machine learning
-├── notebooks/             # Jupyter notebooks for interactive work
-	# ...existing code...
-	# Removed examples/ folder; code is now in labs/
-├── solutions/             # Solution files (instructor access)
-└── requirements.txt       # Python dependencies
+```mermaid
+flowchart TD
+    subgraph SETUP[Setup Process]
+        A([Accept Assignment])
+        B([Open in Codespace])
+        C([Wait for Setup])
+        D([Open setup_lab.py])
+        E([Start Coding])
+    end
+    A --> B --> C --> D --> E
+    style SETUP fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style A fill:#e0f7fa,stroke:#00796b,stroke-width:2px
+    style B fill:#e0f7fa,stroke:#00796b,stroke-width:2px
+    style C fill:#e0f7fa,stroke:#00796b,stroke-width:2px
+    style D fill:#e0f7fa,stroke:#00796b,stroke-width:2px
+    style E fill:#b2dfdb,stroke:#004d40,stroke-width:2px
 ```
 
-## 🛠️ Development Environment
+</div>
 
-This template provides a fully configured development environment with:
+1. **Accept the GitHub Classroom Assignment**: Click the assignment link from your instructor.
+2. **Open in Codespace**: Click the "Code" button and select "Create codespace on main".
+3. **Wait for Setup**: Codespace will install all dependencies automatically.
+4. **Start Learning**: Open the `lab/algorithms.py` file and begin your work.
 
-### Pre-installed Tools
-- **GitHub Copilot**: AI-powered code completion and generation
-- **Python 3.11**: Latest stable Python version
-- **Jupyter Lab**: Interactive notebook environment
-- **VS Code Extensions**: Python, Jupyter, GitLens, and more
+---
 
-### Pre-installed Libraries
-- **Core AI/ML**: NumPy, Pandas, Scikit-learn, TensorFlow, PyTorch
-- **Data Visualization**: Matplotlib, Seaborn, Plotly
-- **Development Tools**: Pytest, Black, Flake8, Pylint
-- **Web Frameworks**: Flask, FastAPI
-- **Utilities**: Requests, Click, PyYAML
+## 🛠️ Environment Setup
 
-## 📖 Learning Objectives
+- **GitHub Copilot**: AI-powered code completion and suggestions.
+- **Python 3.11**: Latest stable Python version.
+- **Jupyter Lab**: Interactive notebook environment (optional).
+- **VS Code Extensions**: Python, Jupyter, GitLens, and more.
 
-By completing this course, students will:
-- Master GitHub Copilot and AI coding assistants
-- Learn effective prompting techniques for AI tools
-- Understand best practices for AI-assisted development
-- Apply AI tools to real-world programming challenges
-- Develop skills in AI-assisted debugging and optimization
-- Create well-documented, tested code with AI assistance
+### Verify Your Setup
 
-## 🎯 Getting Started Guide
+```mermaid
+graph LR
+    A[Check Copilot Status] --> B[Test Python: python --version]
+    B --> C[Test Jupyter: jupyter --version]
+```
 
-### Step 1: Environment Verification
-1. Ensure GitHub Copilot is active (check status bar)
-2. Test Python installation: `python --version`
-3. Verify Jupyter: `jupyter --version`
+1. Ensure Copilot is active (check status bar).
+2. Test Python installation: `python --version`.
+3. Verify Jupyter: `jupyter --version`.
 
-### Step 2: Complete Lab 01
-1. Navigate to `labs/lab01/`
-2. Read the README.md file
-3. Work through the exercises in `hello_ai.py`
-4. Practice using Copilot for code completion
+---
 
-### Step 3: Explore Examples
-1. Review the `examples/` directory
-2. Run the example code to understand AI patterns
-3. Experiment with modifying examples using AI assistance
+## 📚 Lab Structure
 
-## 💡 AI Programming Best Practices
+```mermaid
+graph TD
+    A[lab/algorithms.py] --> B[Task 1: Greeting Function]
+    A --> C[Task 2: Statistics Function]
+    A --> D[Task 3: Calculator Class]
+    A --> E[Task 4: Sorting Algorithms]
+    A --> F[Task 5: Search Algorithms]
+    A --> G[Task 6: Data Structure]
+    A --> H[Task 7: Benchmarking]
+```
 
-### Effective Prompting
-- Write clear, descriptive comments
-- Use meaningful variable and function names
-- Provide context through docstrings
-- Break complex problems into smaller parts
+- All code for this lab is in `lab/algorithms.py`.
+- Each task is clearly marked with comments and TODOs.
+- Use Copilot and VS Code to help you complete each section.
 
-### Code Quality
-- Always review AI-generated code
-- Test thoroughly before committing
-- Use type hints for better AI suggestions
-- Follow consistent coding standards
+---
 
-### Collaboration with AI
-- Start with clear requirements
-- Iterate and refine AI suggestions
-- Combine AI assistance with human judgment
-- Document your decision-making process
+## 💡 How to Complete the Lab
 
-## 🔧 Troubleshooting
+1. **Read the comments and TODOs in `algorithms.py`.**
+2. **Complete each function or class as described.**
+3. **Test your code using the `if __name__ == "__main__":` block at the end of the file.**
+4. **Commit your changes with clear messages.**
+5. **Push your work to GitHub.**
 
-### Common Issues
-1. **Copilot not working**: Check if you're signed in to GitHub and have access
-2. **Import errors**: Run `pip install -r requirements.txt`
-3. **Kernel issues**: Restart the Jupyter kernel or codespace
-4. **Extension problems**: Reload the VS Code window
+---
 
-### Getting Help
-- Use the GitHub Issues tab for technical problems
-- Consult course documentation and resources
-- Ask questions during office hours
-- Collaborate with classmates (following academic integrity guidelines)
+## 📝 Submission Checklist
 
-## 📝 Assessment and Submission
+- [ ] All tasks in `algorithms.py` are completed.
+- [ ] Code is tested and runs without errors.
+- [ ] Clear and descriptive commit messages.
+- [ ] Pushed to your GitHub repository.
 
-### Lab Completion
-- Complete all tasks in each lab directory
-- Commit your changes with descriptive messages
-- Push your work to your GitHub repository
-- Submit according to your instructor's guidelines
+---
 
-### Best Practices for Submission
-- Test your code thoroughly
-- Include proper documentation
-- Follow the coding standards established in examples
-- Demonstrate understanding of AI-assisted development
+## 🔧 Troubleshooting & Help
 
-## 🤝 Contributing
+- **Copilot not working?** Make sure you are signed in to GitHub and have access.
+- **Import errors?** Run `pip install -r requirements.txt` in the terminal.
+- **Kernel issues?** Restart the Jupyter kernel or codespace.
+- **Extension problems?** Reload the VS Code window.
 
-If you find issues with this template or have suggestions for improvements:
-1. Create an issue describing the problem or enhancement
-2. Fork the repository and make your changes
-3. Submit a pull request with a clear description
+If you need help:
+- Use the GitHub Issues tab for technical problems.
+- Ask questions during office hours.
+- Collaborate with classmates (follow academic integrity guidelines).
 
-## 📄 License
+---
 
-This template is provided under the MIT License. See LICENSE file for details.
+## 🤖 AI Programming Best Practices
+
+- Write clear, descriptive comments.
+- Use meaningful variable and function names.
+- Provide context through docstrings.
+- Break complex problems into smaller parts.
+- Review and test AI-generated code before committing.
+- Use type hints for better AI suggestions.
+- Document your decision-making process.
+
+---
 
 ## 🎓 Academic Integrity
 
-This template encourages the use of AI tools for learning and development. Remember:
-- AI tools are learning aids, not replacement for understanding
-- Always review and understand AI-generated code
-- Follow your institution's academic integrity policies
-- Give appropriate attribution when required
+- AI tools are learning aids, not replacements for understanding.
+- Always review and understand AI-generated code.
+- Follow your institution's academic integrity policies.
+- Give appropriate attribution when required.
 
 ---
 
