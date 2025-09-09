@@ -8,13 +8,11 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"GitHub.copilot",
+				"bierner.markdown-mermaid",
+				"github.copilot@prerelease",
+				"github.copilot-chat@prerelease",
 				"ms-python.python"
-			],
-			"settings": {
-				"python.defaultInterpreterPath": "/usr/local/bin/python",
-				"editor.minimap.enabled": false
-			}
+			]
 		}
 	},
 	"postCreateCommand": "pip install -r requirements.txt"
