@@ -5,42 +5,17 @@ Welcome to the Setup Lab! This guide will help you set up your environment, unde
 ---
 
 ## 🚀 Quick Start
-
-<div align="center">
-
-```mermaid
-flowchart TD
-    subgraph SETUP[Setup Process]
-        A([Accept Assignment])
-        B([Open in Codespace])
-        C([Wait for Setup])
-        D([Open setup_lab.py])
-        E([Start Coding])
-    end
-    A --> B --> C --> D --> E
-    style SETUP fill:#f9f9f9,stroke:#333,stroke-width:2px
-    style A fill:#e0f7fa,stroke:#00796b,stroke-width:2px
-    style B fill:#e0f7fa,stroke:#00796b,stroke-width:2px
-    style C fill:#e0f7fa,stroke:#00796b,stroke-width:2px
-    style D fill:#e0f7fa,stroke:#00796b,stroke-width:2px
-    style E fill:#b2dfdb,stroke:#004d40,stroke-width:2px
-```
-
-</div>
-
-1. **Accept the GitHub Classroom Assignment**: Click the assignment link from your instructor.
-2. **Open in Codespace**: Click the "Code" button and select "Create codespace on main".
-3. **Wait for Setup**: Codespace will install all dependencies automatically.
-4. **Start Learning**: Open the `lab/algorithms.py` file and begin your work.
+1. **Open in Codespace**: Click the "Code" button and select "Create codespace on main".
+2. **Wait for Setup**: Codespace will install all dependencies automatically.
+3. **Start Learning**: Open the `setup_lab.py` file and begin your work.
 
 ---
 
 ## 🛠️ Environment Setup
 
 - **GitHub Copilot**: AI-powered code completion and suggestions.
-- **Python 3.11**: Latest stable Python version.
-- **Jupyter Lab**: Interactive notebook environment (optional).
-- **VS Code Extensions**: Python, Jupyter, GitLens, and more.
+- **Python**: Latest stable Python version.
+- **VS Code Extensions**: Python, Copilot and more.
 
 ### Verify Your Setup
 
@@ -50,9 +25,8 @@ graph LR
     B --> C[Test Jupyter: jupyter --version]
 ```
 
-1. Ensure Copilot is active (check status bar).
+1. Ensure Copilot is active (check status bar at bottom to the right).
 2. Test Python installation: `python --version`.
-3. Verify Jupyter: `jupyter --version`.
 
 ---
 
@@ -60,7 +34,7 @@ graph LR
 
 ```mermaid
 graph TD
-    A[lab/algorithms.py] --> B[Task 1: Greeting Function]
+    A[setup_lab.py] --> B[Task 1: Greeting Function]
     A --> C[Task 2: Statistics Function]
     A --> D[Task 3: Calculator Class]
     A --> E[Task 4: Sorting Algorithms]
@@ -69,7 +43,7 @@ graph TD
     A --> H[Task 7: Benchmarking]
 ```
 
-- All code for this lab is in `lab/algorithms.py`.
+- All code for this lab is in `setup_lab.py`.
 - Each task is clearly marked with comments and TODOs.
 - Use Copilot and VS Code to help you complete each section.
 
@@ -77,7 +51,7 @@ graph TD
 
 ## 💡 How to Complete the Lab
 
-1. **Read the comments and TODOs in `algorithms.py`.**
+1. **Read the comments and TODOs in `setup_lab.py`.**
 2. **Complete each function or class as described.**
 3. **Test your code using the `if __name__ == "__main__":` block at the end of the file.**
 4. **Commit your changes with clear messages.**
@@ -87,7 +61,7 @@ graph TD
 
 ## 📝 Submission Checklist
 
-- [ ] All tasks in `algorithms.py` are completed.
+- [ ] All tasks in `setup_lab.py` are completed.
 - [ ] Code is tested and runs without errors.
 - [ ] Clear and descriptive commit messages.
 - [ ] Pushed to your GitHub repository.
