@@ -24,7 +24,8 @@ This repository serves as a GitHub Classroom template for the **AI Assisted Prog
 │   ├── lab02/             # Advanced algorithms
 │   └── lab03/             # Machine learning
 ├── notebooks/             # Jupyter notebooks for interactive work
-├── examples/              # Code examples and patterns
+	# ...existing code...
+	# Removed examples/ folder; code is now in labs/
 ├── solutions/             # Solution files (instructor access)
 └── requirements.txt       # Python dependencies
 ```

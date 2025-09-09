@@ -29,7 +29,7 @@
 3. Implement code coverage and quality checks
 
 ## Getting Started
-1. Open the provided Python files
+1. Use the combined code in `labs/lab02/algorithms.py`
 2. Use GitHub Copilot Chat for complex problem-solving
 3. Practice asking specific questions to get better AI assistance
 

@@ -16,7 +16,7 @@ By the end of this lab, you will be able to:
 
 ### Task 1: GitHub Copilot Setup and Basic Usage
 1. Open VS Code and verify GitHub Copilot is installed
-2. Create a new Python file: `hello_ai.py`
+2. Use the combined code in `labs/lab02/algorithms.py`
 3. Practice basic code completion with Copilot
 
 ### Task 2: AI-Assisted Function Creation

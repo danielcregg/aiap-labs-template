@@ -1,7 +1,6 @@
-
 """
-AI Assisted Programming - Combined Labs 01 & 02
-This file contains functions, classes, and algorithms from both labs.
+AI Assisted Programming - Algorithms Lab
+This file contains functions, classes, and algorithms for the lab.
 """
 
 import statistics
@@ -9,14 +8,11 @@ import time
 from typing import Any, List, Optional
 
 
-# Lab 01: Basic Functions and Calculator
 def greet_user(name: str) -> str:
     """
     Greets a user by name.
-
     Args:
         name (str): The name of the user.
-
     Returns:
         str: A greeting message.
     """
@@ -26,10 +22,8 @@ def greet_user(name: str) -> str:
 def calculate_statistics(numbers: List[int]) -> dict:
     """
     Calculate mean, median, and mode of a list of numbers.
-
     Args:
         numbers (List[int]): List of numbers.
-
     Returns:
         dict: Dictionary with mean, median, and mode.
     """
@@ -62,8 +56,6 @@ class Calculator:
         if b == 0:
             raise ValueError("Cannot divide by zero.")
         return a / b
-
-# Lab 02: Algorithms
 
 
 class SortingAlgorithms:
