@@ -3,7 +3,7 @@
     "files.exclude": {
         "**/.devcontainer": true,
         "**/.vscode": true,
-        "**/.gitignore": false,
+        "**/.gitignore": true,
         "**/.github": true,
     },
     "editor.minimap.enabled": false,
